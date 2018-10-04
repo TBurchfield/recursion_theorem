@@ -12,7 +12,7 @@ First sipser shows a special case illustrating a similar concept to the Recursio
 can in fact print its own source code (or representation),
 by having the program SELF be composed of two parts, A and B.
 A stores a representation R of B, and B uses this stored representation R<sub>1</sub>
-to build a representation R<sub>2</sub>of a program that would store a representation of <sub>R</sub>.
+to build a representation R<sub>2</sub>of a program that would store a representation of R<sub>1</sub>.
 But this is what the representation of A!  So B combines R<sub>1</sub>and R<sub>2</sub>,
 which represent A and B respectively, to get a representation of the program SELF as a whole, and prints this.
 
