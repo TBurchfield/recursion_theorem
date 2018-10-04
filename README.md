@@ -6,6 +6,8 @@ It seems that a program would not be able to self reproduce,
 since a program that produces a program B must be more complex than program B.
 But this is intuition incorrect.
 
+## SELF: A machine that prints its source
+
 First sipser shows a special case illustrating a similar concept to the Recursion Theorem.  He shows that a program
 can in fact print its own source code (or representation),
 by having the program SELF be composed of two parts, A and B.
