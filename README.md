@@ -17,3 +17,10 @@ which represent A and B respectively, to get a representation of the program SEL
 This is almost identical to the notion of a [quine](https://en.wikipedia.org/wiki/Quine_%28computing%29).
 I've implemented an example of Sipser's construction of SELF in `self.py`,
 it works in as similar way as python seems to allow.
+
+### Things I'd like to add
+
+ - [x] SELF in python
+ - [x] Explanation of SELF
+ - [ ] Recursion Theorem in python
+ - [ ] Explanation of Recursion Theorem
